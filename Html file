@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Income & Expenses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Income & Expenses Tracker</h1>
+        
+        <div class="form">
+            <input type="text" id="desc" placeholder="Description">
+            <input type="number" id="amount" placeholder="Amount">
+            <select id="type">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <button id="addBtn">Add</button>
+        </div>
+
+        <div class="summary">
+            <p>Total Income: <span id="totalIncome">0</span></p>
+            <p>Total Expense: <span id="totalExpense">0</span></p>
+            <p>Balance: <span id="balance">0</span></p>
+        </div>
+
+        <table id="transactionTable">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Amount</th>
+                    <th>Type</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Transactions appear here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
