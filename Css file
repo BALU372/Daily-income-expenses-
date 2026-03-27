@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form input, .form select {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 15px;
+}
+
+.summary p {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.income {
+    color: green;
+}
+
+.expense {
+    color: red;
+}
